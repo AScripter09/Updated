@@ -10,7 +10,7 @@ _G.Settings = {
 	Fling = false,
 	CFrameMethod = false,
 }
-local Library = https://raw.githubusercontent.com/bloodball/UI-Librarys/main/Xanax%20UI%20Lib
+local Library = https://pastebin.com/raw/MKc92Crw
 
 local Main = Library:Create("Project: Sunbeam","FE")
 local Tab1 = Main:MakeTab("Home")
