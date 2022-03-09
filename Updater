@@ -69,7 +69,7 @@ Tab2:Button("Reanimate", function()
 		Align(Part0,Part1,Position,Orientation)
 	end
 
-	-- Beginning
+
 	local UIS = game:GetService("UserInputService")
 	local RunService = game:GetService("RunService")
 	local Player = game:GetService("Players").LocalPlayer
@@ -81,7 +81,7 @@ Tab2:Button("Reanimate", function()
 	local Noclip;
 	local Netless;
 	local Test;
-	-- Startup
+
 	Character.Archivable = true
 	local Reanimate = game:GetObjects('rbxassetid://8440552086')[1]
 	Reanimate.Parent = Character
