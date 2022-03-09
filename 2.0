@@ -27,6 +27,7 @@ Tab2:Button("(R6 ONLY) Copy Bullet Hats", function()
 	setclipboard("63690008")
 	set()
 end)
+
 Tab2:Line()
 Tab2:Toggle("Enable Fling", function(Bool)
 	_G.Settings.Fling = Bool
