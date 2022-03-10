@@ -18,8 +18,7 @@ local Tab2 = Main:MakeTab("Reanimation")
 local Tab3 = Main:MakeTab("Scripts")
 local Tab4 = Main:MakeTab("Hat Scripts")
 local Tab5 = Main:MakeTab("Hat ID's")
-local Tab6 = Main:Maketab("Hubs")
-Tab1:Label("Current Version: 1.5.3")
+Tab1:Label("Current Version: 1.4.3")
 Tab1:Label("Created By: Thecoolaidkid")
 Tab1:Label("Special Thanks: Rise!")
 
@@ -55,7 +54,7 @@ Tab2:Button("Reanimate", function()
 		local Attachment1 = Instance.new("Attachment",Part0)
 		local Attachment2 = Instance.new("Attachment",Part1)
 		AlignPosition.MaxForce,AlignOrientation.MaxTorque = 9e9,9e9 -- MaxTorque
-		AlignPosition.Responsiveness,AlignOrientation.Responsiveness = 200,200 -- Responsiveness
+		AlignPosition.Responsiveness,AlignOrientation.Responsiveness = 201,201 -- Responsiveness
 		AlignPosition.Attachment0,AlignPosition.Attachment1 = Attachment1,Attachment2 -- AlignPos Config
 		AlignOrientation.Attachment0,AlignOrientation.Attachment1 = Attachment1,Attachment2 -- AlignOri Config
 		Attachment1.Position = Position or Vector3.new(0,0,0) -- Position
@@ -265,9 +264,6 @@ end)
 Tab3:Button("Ender", function()
 	ezloadstring("ender")
 end)
-Tab3:Button("Invis Tool", function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/J3yer5Md"))()
-end)
 Tab3:Button("Master Of Elements", function()
 	ezloadstring("masterofelements")
 end)
@@ -363,7 +359,7 @@ end)
 Tab6:Button("FE Trolling Gui", function()
 
 loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
-end)
+
 for i = 0,60 do
 	for _,v in pairs(game.CoreGui.ProjectSunbeam.Main.Containers:GetChildren()) do
 		v.Visible = false
