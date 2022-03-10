@@ -19,7 +19,7 @@ local Tab3 = Main:MakeTab("Scripts")
 local Tab4 = Main:MakeTab("Hat Scripts")
 local Tab5 = Main:MakeTab("Hat ID's")
 local Tab6 = Main:Maketab("Hubs")
-Tab1:Label("Current Version: 1.4.2")
+Tab1:Label("Current Version: 1.5.3")
 Tab1:Label("Created By: Thecoolaidkid")
 Tab1:Label("Special Thanks: Rise!")
 
@@ -244,7 +244,7 @@ Tab2:Button("Reanimate", function()
 	game.StarterGui:SetCore("SendNotification",{
 		Title = "Sunbeam Reanimate",
 		Text = "Reanimated.",
-	})
+	}
 	
 end)
 function ezloadstring(a)
@@ -267,7 +267,6 @@ Tab3:Button("Ender", function()
 end)
 Tab3:Button("Invis Tool", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/J3yer5Md"))()
-
 end)
 Tab3:Button("Master Of Elements", function()
 	ezloadstring("masterofelements")
@@ -364,7 +363,6 @@ end)
 Tab6:Button("FE Trolling Gui", function()
 
 loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
-
 end)
 for i = 0,60 do
 	for _,v in pairs(game.CoreGui.ProjectSunbeam.Main.Containers:GetChildren()) do
