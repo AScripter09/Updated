@@ -18,7 +18,6 @@ local Tab2 = Main:MakeTab("Reanimation")
 local Tab3 = Main:MakeTab("Scripts")
 local Tab4 = Main:MakeTab("Hat Scripts")
 local Tab5 = Main:MakeTab("Hat ID's")
-local Tab6 = Main:MakeTab("GUIs")
 Tab1:Label("Current Version: 1.4.3")
 Tab1:Label("Created By: Thecoolaidkid")
 Tab1:Label("Special Thanks: Rise!")
@@ -244,7 +243,7 @@ Tab2:Button("Reanimate", function()
 	game.StarterGui:SetCore("SendNotification",{
 		Title = "Sunbeam Reanimate",
 		Text = "Reanimated.",
-	}
+	})
 	
 end)
 function ezloadstring(a)
@@ -357,10 +356,6 @@ Tab5:Button("Copy Dual Swords Hats", function()
 	setclipboard("4820152700,4524991457")
 	set()
 end)
-Tab6:Button("FE Trolling Gui", function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
-
 for i = 0,60 do
 	for _,v in pairs(game.CoreGui.ProjectSunbeam.Main.Containers:GetChildren()) do
 		v.Visible = false
